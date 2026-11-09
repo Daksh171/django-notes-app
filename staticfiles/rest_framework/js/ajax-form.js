@@ -5,6 +5,7 @@ function replaceDocument(docString) {
   doc.close();
 }
 
+const hello="hello";
 function doAjaxSubmit(e) {
   var form = $(this);
   var btn = $(this.clk);
