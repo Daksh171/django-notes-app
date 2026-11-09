@@ -9,6 +9,7 @@ import Header from './components/header';
 import NotesListPage from './pages/NotesListPage';
 import NotePage from './pages/NotePage';
 
+const nk="snjns";
 function App() {
   return (
     <Router>
