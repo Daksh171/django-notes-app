@@ -1,4 +1,4 @@
-
+@Library('shared') _
 pipeline {
     agent any
 
@@ -6,7 +6,15 @@ pipeline {
         githubPush()
     }
 
+ 
+
     stages {
+
+               stage('Test Shared Library') {
+            steps {
+                hello()
+            }
+        }
         stage('Code') {
             steps {
                 echo 'Checking out code'
