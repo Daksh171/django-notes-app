@@ -6,6 +6,7 @@ function replaceDocument(docString) {
 }
 
 const hello="hello";
+const test="this is for web hook testing";
 function doAjaxSubmit(e) {
   var form = $(this);
   var btn = $(this.clk);
