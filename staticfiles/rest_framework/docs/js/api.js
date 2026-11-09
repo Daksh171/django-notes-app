@@ -10,6 +10,7 @@ function normalizeKeys (arr) {
   return _normarr;
 }
 
+const nebhbfubd="njdnjfbdufb";
 function normalizeHTTPHeader (str) {
   // Capitalize HTTP headers for display.
   return (str.charAt(0).toUpperCase() + str.substring(1))
